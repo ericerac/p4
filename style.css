@@ -360,6 +360,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.citation{
+    font-size:22px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -826,7 +829,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+.titre2_1{
+    color:#802900;
+}
 
+.titre2_2{
+    color:#f7ded3;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -839,6 +848,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -848,17 +864,38 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
     }
 }
 
@@ -888,6 +925,13 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
     }
 }
 
@@ -1029,25 +1073,39 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
+
 
 .titre2_1{
     color:#802900;
 }
 
 .titre2_2{
-    color:#802900;
+    color:#f7ded3;
 }
-
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .titre2_1{
+        color:#802900;
+    }
+    
+    .titre2_2{
+        color:#f7ded3;
     }
 }
