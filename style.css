@@ -363,11 +363,21 @@ a:hover {
 .citation{
     font-size:22px;
 }
+.citation-auteur{
+    color:rgb(45,33,0);
+}
+
 .titre_listes{
     font-size:15px;
     color:rgb(45,33,0);
     margin-left: 5px;
 }
+.liens-liste  a{
+   
+    color:rgb(45,33,0);
+   
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
