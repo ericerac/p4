@@ -290,6 +290,8 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -330,7 +332,24 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
+.navbar2{
+    display:flex;
+    width: 250px;
+    
+}
+.navp2  {
+    display:flex;
+    
+    margin-right: 10px;
+    
+ 
+   
+   
+}
+.navp2 li{
+    margin:0 20px;
+   
+}
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -421,12 +440,13 @@ a:hover {
 
 .nav > li > .dropdown a {
     background: none;
-    display: block;
+    display: flex;
     padding: 14px 15px;
+    justify-content: space-between;
 }
 
 nav .caret {
-    margin: 0 5px;
+    margin: 10px 5px;
 }
 
 .dropdown-menu .dropdown-menu {
@@ -741,9 +761,17 @@ h3 {
 }
 
 h1 {
-    color: #f28d66!important;
+    color: #f28d66;
 }
-
+.h1p2{
+    color:black;
+    text-align: center;;
+}
+.p1p2{
+    color:black;
+    margin:50px auto;
+    text-align: center;
+}
 h4 {
     color: #333333;
 }
