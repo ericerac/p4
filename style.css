@@ -339,12 +339,8 @@ a:hover {
 }
 .navp2  {
     display:flex;
-    
     margin-right: 10px;
     
- 
-   
-   
 }
 .navp2 li{
     margin:0 20px;
@@ -926,6 +922,7 @@ h4 {
     .titre2_2{
         color:#f7ded3;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1134,6 +1131,11 @@ h4 {
 }
 }
 @media (max-width: 400px) {
+    .form-control {
+        border-color: rgba(0, 0, 0, .1);
+        box-shadow: none;
+        height: 48px; 
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
