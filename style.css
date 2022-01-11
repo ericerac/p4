@@ -979,6 +979,8 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    
+
     h1,
     h2,
     h3,
@@ -1146,6 +1148,22 @@ h4 {
     
     .titre2_2{
         color:#f7ded3;
+    }
+    .liens-liste  a{
+   
+        color:rgb(45,33,0);
+        font-size: 25px;
+        padding:10px 0;
+       
+    }
+    .liens-liste {
+   
+        color:rgb(45,33,0);
+        font-size: 25px;
+        border-bottom: 1px solid black;
+        display:inline-block;
+
+       
     }
 }
 
