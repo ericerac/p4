@@ -1477,7 +1477,6 @@ hr {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0
 }
 
@@ -1488,7 +1487,6 @@ hr {
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
 }
 
 [role=button] {
@@ -4286,8 +4284,8 @@ tbody.collapse.in {
     height: 0;
     margin-left: 2px;
     vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px dashed transparent;
+    border-top: 4px solid transparent;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4374,7 +4372,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -4423,7 +4420,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -4646,7 +4643,6 @@ tbody.collapse.in {
 [data-toggle=buttons]>.btn-group>.btn input[type=checkbox],
 [data-toggle=buttons]>.btn-group>.btn input[type=radio] {
     position: absolute;
-    clip: rect(0, 0, 0, 0);
     pointer-events: none
 }
 
@@ -5125,7 +5121,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -6156,7 +6152,7 @@ a.thumbnail:hover {
     color: #843534
 }
 
-@-webkit-keyframes progress-bar-stripes {
+@keyframes progress-bar-stripes {
     from {
         background-position: 40px 0
     }
@@ -6165,7 +6161,7 @@ a.thumbnail:hover {
     }
 }
 
-@-o-keyframes progress-bar-stripes {
+@keyframes progress-bar-stripes {
     from {
         background-position: 40px 0
     }
