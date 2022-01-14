@@ -380,7 +380,9 @@ ul {
     margin-top: 4px
 }
 
-
+.collapse.in {
+    display: block;
+  }
 
 .btn-group-vertical>.btn-group:after,
 .btn-group-vertical>.btn-group:before,
@@ -437,6 +439,8 @@ ul {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 150px;
+    height:150px;
 }
 
