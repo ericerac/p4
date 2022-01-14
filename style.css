@@ -353,11 +353,12 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 2px solid black;
 }
 
 .navbar-toggle:hover {
     background: transparent;
+    transform:scale(1.2);
 }
 
 .navbar-toggle .icon-bar {
@@ -381,9 +382,7 @@ a:hover {
 .citation-auteur{
     color:rgb(45,33,0);
 }
-.presentation-text{
-    font-size:22px;
-}
+
 .titre_listes{
     font-size:15px;
     color:rgb(45,33,0);
@@ -393,6 +392,17 @@ a:hover {
    
     color:rgb(45,33,0);
    
+}
+.presentation-entreprise{
+    font-size:22px;
+}
+.portfolio-thumb{
+    width:270px;
+    height:270px;
+}
+.sr-only{
+    
+    padding:3px;
 }
 
 @media (min-width: 768px) {
@@ -540,7 +550,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border: 2px solid rgba(0, 0, 0, .8);
     box-shadow: none;
 }
 
@@ -711,7 +721,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -735,7 +745,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto;
 }
 .titre_portafolio{
     font-size:22px;
@@ -996,10 +1006,12 @@ h4 {
     }
     .bg-banniere {
         background-image: url("img/la-chouette-agence-banniere-small.webp");
+       
     }
     .bg-presentation {
         background-image: url("img/image-de-presentation-small.webp");
     }
+    
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -1104,8 +1116,30 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
+    .social {
+       display:flex;
+        flex-direction: row;
+        max-width: 400px;
+        margin: 10px auto;
+        position:relative;
+        justify-content: space-between;
+    }
     form {
         padding: 5px;
+    }
+    .form-control {
+        border-color: 2px solid rgba(0, 0, 0, .8);
+        border-radius:5px;
+        
+        height:48px;
+        margin-bottom:10px;
+
+    }
+    .form-group{
+        display:block;
+    }
+    #message{
+        display: flex;
     }
     .close-lightbox {
         display: inline-block;
@@ -1131,6 +1165,13 @@ h4 {
 .titre2_2{
     color:#f7ded3;
 }
+.titre_listes{
+    display: flex;
+    text-align: center;
+    font-size:15px;
+    color:rgb(45,33,0);
+    margin: 0px auto;
+}
 .liens-liste  a{
    
     color:rgb(45,33,0);
@@ -1153,11 +1194,7 @@ h4 {
 }
 }
 @media (max-width: 400px) {
-    .form-control {
-        border-color: rgba(0, 0, 0, .1);
-        box-shadow: none;
-        height: 48px; 
-    }
+    
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1184,5 +1221,10 @@ h4 {
         display:inline-block;
 
        
+    }
+    .portfolio-thumb{
+        margin:0 auto;
+        width:306px;
+        height: 306px;
     }
 }
