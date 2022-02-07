@@ -1128,7 +1128,7 @@ h4 {
         padding: 5px;
     }
     .form-control {
-        border-color: solid rgba(0, 0, 0, .8);
+        border-color:  rgba(0, 0, 0, .8);
         border-radius:5px;
         
         height:48px;
